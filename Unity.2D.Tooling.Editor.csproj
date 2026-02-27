@@ -18,14 +18,14 @@
     <LangVersion>9.0</LangVersion>
     <RootNamespace></RootNamespace>
     <OutputType>Library</OutputType>
-    <AssemblyName>Unity.2D.Aseprite.Editor</AssemblyName>
+    <AssemblyName>Unity.2D.Tooling.Editor</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup>
     <NoWarn>0169;USG0001</NoWarn>
-    <DefineConstants>UNITY_6000_3_4;UNITY_6000_3;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_6000_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;TEXTCORE_FONT_ENGINE_1_6_OR_NEWER;ENABLE_TILEMAP_API;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <DefineConstants>UNITY_6000_3_4;UNITY_6000_3;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_6000_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;TEXTCORE_FONT_ENGINE_1_6_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoStandardLibraries>true</NoStandardLibraries>
@@ -49,62 +49,89 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\UserDataChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AssetGeneration\SpriteAtlasGeneration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Utilities\PlatformSettingsUtilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\TextContent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AssetGeneration\TextureGeneration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\BaseChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\CellChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\FrameData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\TilesetChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AsepriteImporterAPIs.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Inspector\TexturePlatformSettingsModel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AssetGeneration\PrefabGeneration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\TagsChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\MaskChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Tasks\CellTasks.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\IPaletteProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AsepriteImporterSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AsepriteImporterEditorExternalData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Tasks\TextureTasks.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\AsepriteFile.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\ExternalFilesChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\AsepriteReader.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\PaletteChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AssetGeneration\AnimatorControllerGeneration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AsepriteImportData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Tasks\ImportMergedLayers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\SliceChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AssetGeneration\TilePaletteGeneration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Utilities\ImportUtilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\CellExtra.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Utilities\Zlib.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Inspector\ExportAssetsPopup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\SpriteData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\NoneChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\ColorProfileChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Inspector\AsepriteImporterEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AsepriteSpriteEditorDataProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AssetGeneration\AnimationClipGeneration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AsepriteImporterDataProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\LayerChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\PathChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Tasks\PixelBlends.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\OldPaletteChunk2.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\AsepriteUtilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\BackgroundImport.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Inspector\ImporterEditorUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\UserSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\ImporterStructures.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Aseprite\Chunks\OldPaletteChunk.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\AsepriteImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\ReportListView\ReportListView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Interface\AnalyzerIssueReportBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteCountInAtlasIssue\SpriteCountIssueSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Utilities\Utilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SourceTextureWithCompressionIssue\SourceTextureWithCompressionIssue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\StyleSheet\CommonStyleSheet.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\SpriteAtlasReportTable\SpriteAtlasReportTable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Utilities\LazyLoadReference.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\ISpriteAtlasRootIssue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\AnalyzerUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteWithSecondaryTextureIssue\SpriteWithSecondayTextureCellData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasTextureSpaceUsedIssue\SpriteAtlasTextureSpaceUsedIssue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\CellLabelWithIcon\CellLabelWithIcon.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Interface\IDataSourceProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\AnalyzerWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\DataSourceListItem\DataSourceList.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Interface\ISaveData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteCountInAtlasIssue\SpriteCountIssue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\ReportListItem\ReportListItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasTextureSpaceUsedIssue\SpriteAtlasTextureSpaceUsedIssueSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\AllSpriteAtlasReport\AllSpriteAtlasReportCellData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\DataSource\EditorTextureInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\ReportSaveData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\ISpriteAtlasIssue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Interface\ISaveFile.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Utilities\SerializableGuid.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\OKCancel\OKCancelElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SourceTextureWithCompressionIssue\SourceTextureWithCompressionCellData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\DataSource\EditorResourceUsageInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\CommonSpriteAtlasIssueView\CommonSpriteAtlasIssueView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\DataSourceListItem\DataSourceListItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasPageIssue\AtlasPageIssue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Interface\IReportDataSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\Interface\IAnalyzerReport.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\AnalyzerProgress.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\DataSource\EditorAssetInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteWithSecondaryTextureIssue\SpriteWithSecondaryTextureIssue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasIssuesContainer\SpriteAtlasIssuesContainer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\DataSource\EditorAtlasAnalyzer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\SaveData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\AllSpriteAtlasReport\AllSpriteAtlasReport.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\DataSource\SpriteAtlasDataSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\AnalyzerWindowSaveData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasPageIssue\AtlasPageSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\DataSource\EditorSpriteInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\DataSource\EditorAtlasInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Assets\UI\ExportAnimAssetsStyleSheet.uss" />
-    <None Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Assets\UI\AsepriteImporterStyleSheet.uss" />
-    <None Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\Editor\Unity.2D.Aseprite.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\CommonSpriteAtlasIssueView\CommonSpriteAtlasIssueView.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\AnalyzerWindow.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasPageIssue\AtlasPageReportSettings.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasTextureSpaceUsedIssue\SpriteAtlasTextureSpaceUsedIssueSettings.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\StyleSheet\TableStyle.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\StyleSheet\Icon.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\AnalyzerWindow.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\CellLabelWithIcon\CellLabelWithIcon.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\DataSourceListItem\DataSourceListItem.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteCountInAtlasIssue\SpriteCountIssueSettings.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\ReportListView\ReportListView.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\OKCancel\OKCancelElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\ReportListItem\ReportListItem.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\DataSourceListItem\DataSourceList.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasPageIssue\AtlasPageReportSettings.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteWithSecondaryTextureIssue\SpriteWithSecondaryTextureIssue.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\SpriteAtlasReportTable\SpriteAtlasReportTable.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasTextureSpaceUsedIssue\SpriteAtlasTextureSpaceUsedIssueSettings.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteWithSecondaryTextureIssue\SpriteWithSecondaryTextureIssue.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteCountInAtlasIssue\SpriteCountIssueSettings.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Unity.2D.Tooling.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\DataSourceListItem\DataSourceList.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SourceTextureWithCompressionIssue\SourceTextureWithCompressionIssue.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SourceTextureWithCompressionIssue\SourceTextureWithCompressionIssue.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\OKCancel\OKCancelElement.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\AllSpriteAtlasReport\SpriteAtlasRawData.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\AllSpriteAtlasReport\SpriteAtlasRawData.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasIssuesContainer\SpriteAtlasIssuesContainer.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\CellLabelWithIcon\CellLabelWithIcon.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\ReportListItem\ReportListItem.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\AnalyzerWindow\DataSourceListItem\DataSourceListItem.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\SpriteAtlasIssuesContainer\SpriteAtlasIssuesContainer.uss" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\CommonSpriteAtlasIssueView\CommonSpriteAtlasIssueView.uxml" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@249995156768\Editor\Insider\SpriteAtlas\SpriteAtlasIssueReport\UIElement\SpriteAtlasReportTable\SpriteAtlasReportTable.uss" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1241,17 +1268,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj" />
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj" />
-    <ProjectReference Include="Unity.2D.Aseprite.Common.csproj" />
-    <ProjectReference Include="Unity.Burst.csproj" />
-    <ProjectReference Include="Unity.Mathematics.csproj" />
     <ProjectReference Include="UnityEditor.UI.csproj" />
-    <ProjectReference Include="UnityEngine.UI.csproj" />
-    <ProjectReference Include="UnityEditor.TestRunner.csproj" />
     <ProjectReference Include="UnityEngine.TestRunner.csproj" />
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj" />
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj" />
+    <ProjectReference Include="Unity.Mathematics.csproj" />
+    <ProjectReference Include="Unity.Burst.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
