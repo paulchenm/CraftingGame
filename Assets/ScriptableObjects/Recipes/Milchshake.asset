@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3087be2c1caace4a9d7492d98ba2d5e, type: 3}
+  m_Name: Milchshake
+  m_EditorClassIdentifier: 
+  displayName: Milchshake Rezept
+  tier: 2
+  pattern:
+  - item: {fileID: 11400000, guid: 9bc22d858297db64eac632514dba3bd3, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: 5dadbeb25c98b1546ad0ef7a318cf352, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 83dd38eeb2932894887331d8edb21942, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 83dd38eeb2932894887331d8edb21942, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 83dd38eeb2932894887331d8edb21942, type: 2}
+    amount: 1
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 11400000, guid: 83dd38eeb2932894887331d8edb21942, type: 2}
+    amount: 1
+  - item: {fileID: 0}
+    amount: 1
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  outputItem: {fileID: 11400000, guid: 55d71ab9736146c46be3326d676baf53, type: 2}
+  outputAmount: 2

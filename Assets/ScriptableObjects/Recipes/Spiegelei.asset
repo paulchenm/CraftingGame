@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3087be2c1caace4a9d7492d98ba2d5e, type: 3}
+  m_Name: Spiegelei
+  m_EditorClassIdentifier: 
+  displayName: Spiegelei Rezept
+  tier: 1
+  pattern:
+  - item: {fileID: 11400000, guid: ff45fc471a96a8d45936f17a203f4c62, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 3213f67e22796ff4e9f97a3a0b32ef5f, type: 2}
+    amount: 1
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  outputItem: {fileID: 11400000, guid: 4a565d0b162f26b469c88e5736a25eec, type: 2}
+  outputAmount: 1

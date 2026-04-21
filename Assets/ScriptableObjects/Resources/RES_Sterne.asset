@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0340907ea066e49b31a5fc3525536d, type: 3}
+  m_Name: RES_Sterne
+  m_EditorClassIdentifier: 
+  id: zufriedenheit
+  icon: {fileID: 21300000, guid: a0477a20bae85084d8cb1e74c18556de, type: 3}
+  displayName: Zufriedenheit
+  maxStack: 10
+  description: "Zufriedenheit deiner G\xE4ste - out of 10"

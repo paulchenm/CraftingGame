@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3087be2c1caace4a9d7492d98ba2d5e, type: 3}
+  m_Name: Toast
+  m_EditorClassIdentifier: 
+  displayName: Toast Rezept
+  tier: 4
+  pattern:
+  - item: {fileID: 11400000, guid: 01f5a82183244a44e928abcec8b259e9, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e7687015370c95945beabd24b8cce71e, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 6b5e2a94d92b3c248bcbbc9b8d1b7171, type: 2}
+    amount: 1
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  outputItem: {fileID: 11400000, guid: 5a36679f64f706c478208c0750269f36, type: 2}
+  outputAmount: 3
