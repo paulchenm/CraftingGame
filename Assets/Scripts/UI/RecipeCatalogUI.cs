@@ -171,10 +171,10 @@ public class RecipeCatalogUI : MonoBehaviour
         {
             var cell = runtimeGrid.GetCell(i);
             var ing = (i >= 0 && i < r.pattern.Length) ? r.pattern[i] : default;
-            if (ing.item != null && ing.amount > 0)
+            if (ing.item != null)
             {
                 cell.Item = ing.item;
-                cell.Amount = ing.amount;
+                cell.Amount = Mathf.Max(1, ing.amount);
             }
             else
             {
