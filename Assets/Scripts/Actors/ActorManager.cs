@@ -5,8 +5,8 @@ public class ActorManager : MonoBehaviour
 {
     const float IdleThoughtStartJitterMin = 0.5f;
     const float IdleThoughtStartJitterMax = 4f;
-    const string RoleWizardId = "wizard";
-    const string RoleCrafterId = "crafter";
+    const string RoleWizardId = "lieferant";
+    const string RoleCrafterId = "chefin";
 
     [Header("Limits")]
     public int maxSlots = 3;

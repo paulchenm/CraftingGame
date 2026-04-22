@@ -14,13 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forageAreas:
   - {fileID: 11400000, guid: ad46d4f4c7d76c64f879cc7d34a4204d, type: 2}
-  - {fileID: 11400000, guid: 7a96e10b59efe334db3ccc01828b312f, type: 2}
+  - {fileID: 11400000, guid: 11996cb25a95b4f4a89ff5beb8c17ff3, type: 2}
   sellRoutes:
-  - {fileID: 11400000, guid: 1f03547655ba69b44bc5402e03827c7f, type: 2}
+  - {fileID: 11400000, guid: 2814a9cd73a55f94387705c1a0b33acd, type: 2}
   researchDomains:
   - {fileID: 11400000, guid: 366a46310ff211c4883add1224017c02, type: 2}
-  - {fileID: 11400000, guid: 69e8b5530a4e38642ac9f1fadb8f3658, type: 2}
-  - {fileID: 11400000, guid: 91bd8041830c166409e0e6df37adcc52, type: 2}
+  - {fileID: 11400000, guid: 449ae3de5d5584946897e174602080b5, type: 2}
   craftPlans:
   - {fileID: 11400000, guid: 4f9fe49b3f17e41439859c131013905c, type: 2}
   tavernVisits:

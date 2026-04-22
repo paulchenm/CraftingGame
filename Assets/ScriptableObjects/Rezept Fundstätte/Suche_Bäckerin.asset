@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ce18267a5c46c58c36fbab0d332794, type: 3}
+  m_Name: "Suche_B\xE4ckerin"
+  m_EditorClassIdentifier: 
+  id: "rezeptsucheB\xE4ckerin"
+  displayName: "B\xE4ckerin"
+  days: 0.2
+  possibleRecipes:
+  - {fileID: 11400000, guid: 5edb9532438268641a1cc2d186434869, type: 2}
+  recipeChance: 0.157
+  possibleSpiritGenerators:
+  - {fileID: 11400000, guid: 9e3a59137428ae94a8c0717215c3dc46, type: 2}
+  spiritGenChance: 0.071

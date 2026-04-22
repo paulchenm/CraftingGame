@@ -15,24 +15,24 @@ MonoBehaviour:
   displayName: "R\xFChrteig Rezept"
   tier: 3
   pattern:
+  - item: {fileID: 0}
+    amount: 0
   - item: {fileID: 11400000, guid: 9bc22d858297db64eac632514dba3bd3, type: 2}
     amount: 2
-  - item: {fileID: 11400000, guid: 399f8acda452a544a95f1faae9146198, type: 2}
-    amount: 1
-  - item: {fileID: 11400000, guid: ff45fc471a96a8d45936f17a203f4c62, type: 2}
-    amount: 3
   - item: {fileID: 11400000, guid: 5dadbeb25c98b1546ad0ef7a318cf352, type: 2}
     amount: 1
   - item: {fileID: 0}
     amount: 0
   - item: {fileID: 0}
     amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  - item: {fileID: 0}
-    amount: 0
+  - item: {fileID: 11400000, guid: 399f8acda452a544a95f1faae9146198, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: ff45fc471a96a8d45936f17a203f4c62, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: ff45fc471a96a8d45936f17a203f4c62, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 399f8acda452a544a95f1faae9146198, type: 2}
+    amount: 1
   - item: {fileID: 0}
     amount: 0
   - item: {fileID: 0}
