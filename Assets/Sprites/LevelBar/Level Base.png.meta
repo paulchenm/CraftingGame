@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a0477a20bae85084d8cb1e74c18556de
+guid: 72d84b32b16686241b1735dda51165f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9117860226400131642
-    second: Stern_Icon_0
+      213: -4538666548944735958
+    second: Level Base_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stern_Icon_0
+      name: Level Base_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3a1e324195298e70800000000000000
-      internalID: 9117860226400131642
+      spriteID: a21733412da6301c0800000000000000
+      internalID: -4538666548944735958
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stern_Icon_0: 9117860226400131642
+      Level Base_0: -4538666548944735958
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
